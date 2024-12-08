@@ -1,0 +1,43 @@
+# Go Modules
+go.mod
+go.sum
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Vendor directory (when not using Go Modules)
+vendor/
+
+# Logs
+*.log
+*.log.*
+
+# Configuration files
+.env
+*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.iml
+
+# Temporary files
+*.swp
+*.tmp
+*.temp
+*.bak
+
+# Coverage files
+coverage.out
+
+# Node.js dependencies (if frontend is included in the same repo)
+node_modules/
