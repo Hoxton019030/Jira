@@ -9,8 +9,10 @@ import (
 var router *gin.Engine
 
 func Init() {
+	log.Println("初始化路由")
 	router = gin.New()
 	router.GET("/ping", controller.HttpHandlerPing)
+	router.POST("/user", controller.CreateUser)
 }
 
 func Run() {
